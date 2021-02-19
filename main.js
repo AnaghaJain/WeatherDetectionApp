@@ -38,6 +38,9 @@ function displayResults (weather){
 
     let hilow = document.querySelector('.hi-low');
     hilow.innerText = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
+
+    let icn=document.querySelector('.icon');
+    icn.innerHTML=`<img src="pict/${weather.weather[0].icon}.png"/>`;
 }
 
 function dateBuilder (d) {

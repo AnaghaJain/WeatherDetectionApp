@@ -92,6 +92,11 @@ main{
     font-style: italic;
     margin-bottom: 15px
 }
+.current .icon{
+    size: 10rem;
+    box-shadow: 100px;
+    padding-bottom: 8px;
+}
 
 .current .hi-low {
     color:rgb(225, 225, 225);
