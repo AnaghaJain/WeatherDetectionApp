@@ -40,7 +40,58 @@ function displayResults (weather){
     hilow.innerText = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
 
     let icn=document.querySelector('.icon');
-    icn.innerHTML=`<img src="pict/${weather.weather[0].icon}.png"/>`;
+    icn.innerHTML=`<img src="Pictures/${weather.weather[0].icon}.png"/>`;
+
+    if (document.body) {
+        console.log(weather.weather[0].main);
+        if(weather.weather[0].main == "")
+       {
+           document.body.style.background = "url('Pictures/main.jpg') no-repeat bottom center ";
+           document.body.style.backgroundSize = "cover";
+       }
+       else{
+           if(weather.weather[0].main == "Haze")
+           {
+               document.body.style.background = "url('Pictures/hazy.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+           if(weather.weather[0].main == "Fog")
+           {
+               document.body.style.background = "url('Pictures/hazy.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+           if(weather.weather[0].main == "Smoke")
+           {
+               document.body.style.background = "url('Pictures/hazy.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+               if(weather.weather[0].main == "Clouds")
+           {
+               document.body.style.background = "url('Pictures/cloudy.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+           if(weather.weather[0].main == "Mist")
+           {
+               document.body.style.background = "url('Pictures/rainy.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+           if(weather.weather[0].main == "Clear")
+           {
+               document.body.style.background = "url('Pictures/sunny.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+           if(weather.weather[0].main == "Snow")
+           {
+               document.body.style.background = "url('Pictures/winter.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+           if(weather.weather[0].main == "Rain")
+           {
+               document.body.style.background = "url('Pictures/rainy.jpg') no-repeat bottom center ";
+               document.body.style.backgroundSize = "cover";
+           }
+       }
+    }
 }
 
 function dateBuilder (d) {

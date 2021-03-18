@@ -8,7 +8,9 @@
 body {
     background-color: grey;
     font-family:sans-serif;
-    background-image: url('image2.jpg');
+    background-image: url('Pictures/main.jpg');
+    background-position: center; /* Center the image */
+    /*background-repeat: no-repeat;  Do not repeat the image */
     background-position: cover;
     background-size: center;
 }
