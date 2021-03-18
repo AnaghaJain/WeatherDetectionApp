@@ -60,43 +60,39 @@ function displayResults(weather) {
         else {
             if (weather.weather[0].main == "Haze") {
                 document.body.style.background = "url('Pictures/hazy.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
-                document.body.style.backgroundColor = "black";
+                document.body.style.backgroundSize = "cover";document.body.style.backgroundColor = "black";
             }
             if (weather.weather[0].main == "Fog") {
                 document.body.style.background = "url('Pictures/hazy.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
+                document.body.style.backgroundSize = "cover";
                 document.body.style.backgroundColor = "black";
             }
             if (weather.weather[0].main == "Smoke") {
                 document.body.style.background = "url('Pictures/hazy.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
+                document.body.style.backgroundSize = "cover";
                 document.body.style.backgroundColor = "black";
             }
             if (weather.weather[0].main == "Clouds") {
                 document.body.style.background = "url('Pictures/cloudy.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
+                document.body.style.backgroundSize = "cover";
                 document.body.style.backgroundColor = "black";
             }
             if (weather.weather[0].main == "Mist") {
                 document.body.style.background = "url('Pictures/rainy.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
+                document.body.style.backgroundSize = "cover";
                 document.body.style.backgroundColor = "black";
             }
             if (weather.weather[0].main == "Clear") {
                 document.body.style.background = "url('Pictures/sunny.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
-                document.body.style.backgroundColor = "black";
+                document.body.style.backgroundSize = "cover";document.body.style.backgroundColor = "black";
             }
             if (weather.weather[0].main == "Snow") {
                 document.body.style.background = "url('Pictures/winter.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
-                document.body.style.backgroundColor = "black";
+                document.body.style.backgroundSize = "cover";document.body.style.backgroundColor = "black";
             }
             if (weather.weather[0].main == "Rain") {
                 document.body.style.background = "url('Pictures/rainy.jpg') no-repeat bottom center ";
-                document.body.style.backgroundSize = "1200px 800px";
-                document.body.style.backgroundColor = "black";
+                document.body.style.backgroundSize = "cover";document.body.style.backgroundColor = "black";
             }
         }
     }
