@@ -9,7 +9,7 @@ body {
     background-color: grey;
     font-family:sans-serif;
     background-image: url('Pictures/main.jpg');
-    background-size: 1200px 800px;
+    background-size: cover;
     background-repeat:no-repeat;
     background-position: center; /* Center the image */
     /* background-repeat: no-repeat; */
@@ -18,8 +18,8 @@ body {
     border-radius: 5px;
     /* -webkit-backdrop-filter: blur(10px); */
     backdrop-filter: blur(10px);
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 32%;
+    margin-right: 32%;
 
     /* max-width: 50%; */
     /* max-height: 50%; */
@@ -45,7 +45,7 @@ header{
 
 header input {
     width: 100%;
-    max-width: 280px;
+    max-width: 80%;
     padding: 10px 15px;
     border: none;
     outline: none;
