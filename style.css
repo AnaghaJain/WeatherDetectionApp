@@ -120,7 +120,7 @@ main{
     font-size: 26px;
     font-weight: 500;
     font-style: italic;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 .current .icon{
     size: 10rem;
