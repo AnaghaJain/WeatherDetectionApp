@@ -9,11 +9,22 @@ body {
     background-color: grey;
     font-family:sans-serif;
     background-image: url('Pictures/main.jpg');
+    background-size: 1200px 800px;
     background-repeat:no-repeat;
     background-position: center; /* Center the image */
-    /*background-repeat: no-repeat;  Do not repeat the image */
+    /* background-repeat: no-repeat; */
     background-color: #020000;
     background-size: center;
+    border-radius: 5px;
+    /* -webkit-backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
+    margin-left: 30%;
+    margin-right: 30%;
+
+    /* max-width: 50%; */
+    /* max-height: 50%; */
+
+
 }
 
 .app-wrap{
@@ -60,6 +71,21 @@ main{
     align-items: center;
     text-align: center;
     font-size: larger;
+    /* -webkit-backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
+    /* max-width: 50%;
+    max-height: 50%;
+    border-radius: 5px; */
+    /* border-radius: 10px; */
+    /* backdrop-filter: contrast(15px); */
+    /* filter: url('#teal-white'); */
+    /* max-width: 500px; */
+    /* position: absolute; */
+    /* top: 15%; */
+    /* bottom: 10%; */
+    /* background-color: rgba(10, 6, 6, 0.336);   */
+    /* padding-left: 100px; */
+
 }
 
 .location .city{
@@ -77,10 +103,11 @@ main{
 }
 
 .current .temp{
+    display: flex;
     color:rgb(225, 225, 225);
-    font-size: 86px;
+    font-size: 75px;
     font-weight: 600;
-    margin: 30px 0px;
+    margin: 5px 5px;
     text-shadow: 2px 7px rgba(0, 0, 0, 0.6) ;
 }
 
@@ -88,12 +115,13 @@ main{
     font-weight: 500;
 }
 .current .weather{
+    /* display: flex; */
     color:rgb(225, 225, 225);
     text-shadow: 1px 3px rgba(0, 0, 0, 0.3);
     font-size: 26px;
     font-weight: 500;
     font-style: italic;
-    margin-bottom: 15px
+    margin-bottom: 5px
 }
 .current .icon{
     size: 10rem;
@@ -101,7 +129,15 @@ main{
     padding-bottom: 8px;
 }
 
-.current .hi-low {
+.current .attributes {
+    color:rgb(225, 225, 225);
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.3);
+    font-style: inherit;
+}
+
+.current .humid {
     color:rgb(225, 225, 225);
     font-size: 24px;
     font-weight: 500;

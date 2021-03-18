@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Detection App</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e25b852c87.js" crossorigin="anonymous">
+	</script>
     <script defer src="main.js"></script>
     
 </head>
@@ -20,9 +23,19 @@
             </section>
             <div class = "current">
                 <div class = "temp"> --<span>°C</span> </div>
-                <div class="icon"><img src="pict/unknown.png" alt="weather" width="50"></div>
+                
+                <div class="icon"><img src="Pictures/unknown.png" alt="weather" width="50"></div>
+                
                 <div class="weather">Weather</div>
-                <div class="hi-low">Low / High</div>
+                <div class = "attributes">
+                    <div class="wind">
+                    <div class="fas fa-wind"></div>
+                    <span class="wind-speed"> --</span> m/s</div>
+                </div>
+                <div class="humid">
+                    <div class="fas fa-tint"></div>
+                        <span class="humidity-value"> -- </span>%
+                </div>
             </div>
         </main>
         <footer>
