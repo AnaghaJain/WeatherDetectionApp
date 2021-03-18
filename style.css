@@ -149,5 +149,6 @@ main{
 
 footer{
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
+    background-color: rgba(10, 6, 6, 0.336);
 }
