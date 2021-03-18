@@ -9,13 +9,10 @@ body {
     background-color: grey;
     font-family:sans-serif;
     background-image: url('Pictures/main.jpg');
-    img {
-        opacity: 0.5;
-      }
+    background-repeat:no-repeat;
     background-position: center; /* Center the image */
     /*background-repeat: no-repeat;  Do not repeat the image */
     background-color: #020000;
-    background-position: cover;
     background-size: center;
 }
 
